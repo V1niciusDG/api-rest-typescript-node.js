@@ -5,7 +5,7 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Room } from './Room';
+import { Room } from '../../rooms/entities/Room';
 
 @Entity('videos')
 export class Video {

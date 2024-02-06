@@ -5,7 +5,7 @@ import {
   ManyToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Room } from './Room';
+import { Room } from '../../rooms/entities/Room';
 
 @Entity('subjects')
 export class Subject {

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
-import { roomRepository } from '../repositories/roomRepository';
-import { subjectRepository } from '../repositories/subjectRepository';
-import { videoRepository } from '../repositories/videoRepository';
+import { roomRepository } from '../modules/product/rooms/repositories/RoomRepository';
+import { videoRepository } from '../modules/product/videos/repositories/VideoRepository';
+import { subjectRepository } from '../modules/product/subjects/repositories/SubjectRepository';
 
 export class RoomController {
   async create(req: Request, res: Response) {
