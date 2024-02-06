@@ -6,8 +6,8 @@ import {
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Video } from './Video';
-import { Subject } from './Subjects';
+import { Video } from '../../videos/entities/Video';
+import { Subject } from '../../subjects/entities/Subjects';
 
 @Entity('rooms')
 export class Room {
